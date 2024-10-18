@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/SCREEN"
+    >
+
+    <Button
+        android:id="@+id/Move"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerInParent="true"
+        android:text="@string/start_now"
+        style="@style/TEXT"
+        tools:ignore="RelativeOverlap" />
+
+    <TextView
+        android:id="@+id/dark_mode"
+        android:textColor="#673AB7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="50dp"
+        android:padding="8dp"
+        android:text="@string/dark_mode"
+        tools:ignore="RelativeOverlap" />
+    <Switch
+        android:id="@+id/switcher"
+        android:layout_width="56dp"
+        android:layout_height="68dp"
+        android:layout_alignParentEnd="true"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <Button
+        android:id="@+id/makeen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:text="@string/turkish"
+        tools:ignore="RelativeOverlap" />
+
+    <Button
+        android:id="@+id/maketr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="@string/english"
+        tools:ignore="RelativeOverlap" />
+</RelativeLayout>

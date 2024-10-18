@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Final</string>
+    <string name="menu_text">Start Now</string>
+    <string name="options_text">Backgrounds:</string>
+    <string name="switch_language">English/Turkish</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="hint_text">Write here</string>
+</resources>
